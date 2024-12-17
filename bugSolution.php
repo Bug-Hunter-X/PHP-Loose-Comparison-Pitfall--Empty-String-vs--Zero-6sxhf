@@ -1,0 +1,1 @@
+This corrected version uses strict comparison (`===`) to avoid the type juggling issue. Strict comparison checks for both value and type equality, ensuring that an empty string is not considered equal to 0.
